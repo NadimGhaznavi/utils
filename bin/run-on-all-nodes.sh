@@ -9,14 +9,16 @@ echo
 DOM="osoyalce.com"
 
 for node in brat.$DOM phoebe.$DOM maia.$DOM kermit.$DOM; do
-	echo "Executing command on node: $node"
+	echo "Executing command: $*"
+	echo "On node: $node"
 	echo "-------------------------------------------------"
 	ssh $node $*
 	echo "-------------------------------------------------"
 	echo
 done
 
-echo "Executing command on node: sally"
+echo "Executing command: $*"
+echo "On node: sally"
 echo "-------------------------------------------------"
 $*
 echo "-------------------------------------------------"
