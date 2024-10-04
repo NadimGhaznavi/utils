@@ -15,8 +15,8 @@ def parse_input(key: str) -> None:
 #  - The second element is the foreground
 #  - The third element is the background
 palette = [
-  ('header', 'dark blue', 'light gray'),
-  ('default', 'black', 'light gray'),
+  ('header', 'light green', 'black'),
+  ('default', 'light green', 'black'),
 ]
 
 # Title text
@@ -24,7 +24,7 @@ title_widget = LineBox(Text(' PATCH NODES '))
 title_map = AttrMap(title_widget, 'header')
 
 # Selection help text
-select_help_widget = Text(' Select which hosts you want to patch:\n')
+select_help_widget = Text('Select which hosts you want to patch:\n')
 select_help_map = AttrMap(select_help_widget, 'default')
 
 # Host selection
