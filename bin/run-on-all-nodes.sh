@@ -18,7 +18,7 @@ for node in brat.$DOM phoebe.$DOM maia.$DOM kermit.$DOM bingo.$DOM paris.$DOM; d
 done
 
 echo "Executing command: $*"
-echo "On node: sally"
+echo "On node: sally.$DOM"
 echo "-------------------------------------------------"
 $*
 echo "-------------------------------------------------"
