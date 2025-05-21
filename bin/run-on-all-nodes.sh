@@ -8,7 +8,7 @@ echo
 
 DOM="osoyalce.com"
 
-for node in brat.$DOM phoebe.$DOM maia.$DOM kermit.$DOM bingo.$DOM paris.$DOM; do
+for node in islands.$DOM phoebe.$DOM maia.$DOM kermit.$DOM bingo.$DOM paris.$DOM; do
 	echo "Executing command: $*"
 	echo "On node: $node"
 	echo "-------------------------------------------------"
